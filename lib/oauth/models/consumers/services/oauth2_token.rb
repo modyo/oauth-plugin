@@ -1,5 +1,5 @@
 require 'oauth2'
-class Oauth2Token < Oauth::ConsumerToken
+class Oauth2Token < ConsumerToken
 
   def self.consumer
     @consumer||=create_consumer
